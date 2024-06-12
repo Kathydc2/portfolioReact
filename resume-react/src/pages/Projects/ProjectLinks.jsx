@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import Img1 from "../images/javascriptApi.png";
-import Img2 from "../images/domWebApp.png";
-import Img3 from "../images/responsiveBootstrap.png";
-import Img4 from "../images/expressNodePic.png";
-import Img5 from "../images/reactPic.png";
-import Img6 from "../images/mongodbPic.png";
+import Img1 from "../../images/javascriptApi.png"
+import Img2 from "../../images/domWebApp.png";
+import Img3 from "../../images/responsiveBootstrap.png";
+import Img4 from "../../images/expressNodePic.png";
+import Img5 from "../../images/reactPic.png";
+import Img6 from "../../images/mongodbPic.png";
+import "./ProjectLinks.css"
 
 export default function ProjectLinks() {
   const projects = [
@@ -17,6 +18,7 @@ export default function ProjectLinks() {
   ];
 
   return (
+    
     <div className="projectList">
       {projects.map((project, idx) => {
         const { name, details, photo, projectUrl } = project;

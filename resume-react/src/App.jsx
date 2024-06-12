@@ -1,9 +1,9 @@
-import './Style.css';
+import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import ProjectLinks from './pages/ProjectLinks';
+import Nav from './components/Nav/Nav';
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
+import ProjectLinks from './pages/Projects/ProjectLinks';
 
 
 

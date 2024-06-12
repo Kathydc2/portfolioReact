@@ -1,0 +1,54 @@
+.projectList {
+    background-color: #CCD3CA;
+    padding:1em;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.listing {
+    border: 5pt dotted black;
+    border-radius: 1cm;
+    background-color: #F5E8DD;
+    flex: 0 0 31%;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}
+
+.listing:hover {
+    border: 5pt dotted black;
+    border-radius: 1cm;
+    background-color: #EED3D9;
+    flex: 0 0 31%;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+}
+  
+.projectBox {
+    border-radius: 5px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    height:39%;
+    margin-top: auto;
+    color: black;
+    padding: 1em;
+    align-self: flex-end;
+}
+
+.pic {
+    max-width:100%; 
+    height: auto;
+    border-radius: 5px;
+}
+.info p{
+    font-size: 11pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}

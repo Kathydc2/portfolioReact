@@ -1,0 +1,13 @@
+.selfContainer {
+    border:  5pt dotted black;
+    border-radius: 50%;
+    width: 20%;
+    overflow: hidden; 
+
+}
+  
+.self {
+    width: 100%;
+    float: left;
+
+}

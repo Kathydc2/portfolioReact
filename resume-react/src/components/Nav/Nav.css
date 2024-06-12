@@ -1,0 +1,13 @@
+.navBar{
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.nav{
+  color:black;
+  text-decoration: none;
+  font-weight: bolder;
+}
